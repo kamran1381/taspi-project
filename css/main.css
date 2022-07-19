@@ -1,0 +1,439 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+
+:root {
+  --mainBlue: #40ACF1;
+  --transparentBlue: rgba(64, 172, 241, 0.7);
+  --mainWhite: #FFFFFF;
+  --mainBlack: #292F36;
+  --mainGrey: rgb(230, 228, 228);
+  --mainYellow: #e3b505;
+  --mainOrange: #ff5722;
+}
+
+@font-face {
+  font-family: Iranyekan;
+  src: url(../font/Qs_Iranyekan.ttf);
+}
+
+
+
+nav {
+  background-color: #f8f8f8;
+}
+
+
+.nav-item .nav-link {
+  color: #545454;
+  font-family: Iranyekan;
+  margin-right: 20px;
+  font-size: 15px;
+  transition: color 0.3s;
+
+}
+
+
+.nav-item .nav-link:hover {
+  color: var(--mainOrange);
+}
+
+/* .navbar-icon:hover{
+ border: none !important;
+} */
+
+
+.btn-download button {
+  background-color: var(--mainOrange);
+  color: #FFFFFF;
+  font-family: Iranyekan;
+  font-size: 15px;
+}
+
+.navbar-icon i:hover {
+  text-decoration: none;
+  border: 0 !important;
+}
+
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+  outline: none;
+  box-shadow: none;
+
+}
+
+
+.sub-nav-gold {
+  background-image: url(../image/web-banner.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 12px;
+}
+
+.sub-nav-p {
+  font-family: Iranyekan;
+  overflow: hidden;
+  font-size: 16px;
+  font-weight: 600;
+  width: 45vw;
+}
+
+@media(max-width:782px) {
+  .sub-nav-p {
+    margin-right: 50px;
+  }
+}
+
+@media(max-width:768px) {
+  .sub-nav-p {
+    font-size: 13px;
+
+  }
+
+  .lottery-btn {
+    width: 120px;
+    height: 50px;
+    font-size: 12px;
+  }
+}
+
+
+header {
+  /* min-height: calc(100vh - 80px); */
+  width: 100%;
+  height: 100vh;
+  background: url(../image/banner.webp) center/cover fixed no-repeat;
+}
+
+.tapsi {
+  width: 40rem;
+  height: 370px;
+  color: #FFFFFF;
+  background-image: linear-gradient(51deg, rgba(23, 26, 60, .7) 5%, rgba(23, 26, 60, .3) 95%);
+  margin-bottom: 45px;
+
+}
+
+
+.title-01 {
+  font-size: 3em;
+  font-weight: 500;
+  font-family: Iranyekan;
+}
+
+.sub-title {
+  font-size: 22px;
+  font-family: Iranyekan;
+
+}
+
+.btn-download-02 {
+  width: 20rem !important;
+  background-color: var(--mainWhite);
+  border-radius: 10px;
+}
+
+.btn-download-02 a span {
+  color: var(--mainBlack);
+  font-family: Iranyekan;
+  font-size: 15px;
+  margin-right: 30px;
+  transition: 0.2s ease-in-out;
+}
+
+
+.btn-download-02 a span:hover {
+  color: #929090;
+}
+
+.drivers a span img {
+  color: transparent;
+}
+
+.drivers {
+  border: 1px solid var(--mainWhite);
+}
+
+.registration a span {
+  margin-right: 20px;
+}
+
+
+.phone {
+  width: 52rem;
+  height: 50vh;
+
+}
+
+.service-title {
+  margin-top: 320px !important;
+}
+
+
+.service-title h2 {
+  font-family: Iranyekan;
+}
+
+.icon-service {
+  width: 70px;
+  height: 40px;
+}
+
+
+@media(max-width:576px) {
+  .phone {
+    display: none;
+  }
+
+  .service-title {
+    margin: 0 !important;
+    display: flex;
+    justify-content: end;
+  }
+}
+
+.navabr {
+  position: absolute !important;
+  right: 15%;
+}
+
+.navbar-nav a {
+  margin-right: 30px;
+}
+
+.navbar-nav {
+  overflow: auto;
+}
+
+.nav-item p {
+  font-family: Iranyekan;
+  font-size: 14px;
+  color: var(--mainBlack);
+}
+
+.nav-item:hover {
+  background-color: var(--mainGrey) !important;
+}
+
+.tapsi-classic {
+  margin-top: 190px !important;
+
+}
+
+.tapsi-classic-title h2 {
+  font-family: Iranyekan;
+
+}
+
+.tapsi-classic-title p {
+  font-family: Iranyekan;
+}
+
+@media(max-width:728px) {
+  .tapsi-classic img {
+    width: 300px;
+    height: 200px;
+  }
+
+  .right-side-image {
+    display: none;
+  }
+}
+
+@media(max-width:576px) {
+  .tapsi-classic img {
+    display: none;
+  }
+
+}
+
+.this-bottom {
+  border-top: 1px solid var(--mainGrey);
+}
+
+
+.btnorange {
+  background-color: var(--mainOrange);
+}
+
+.code-etbar {
+  margin-top: 200px !important;
+}
+
+
+.nature-background {
+  width: 100%;
+  height: 30vh;
+  background-image: url(../image/parallax.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.hooshmand {
+  width: 30rem;
+  height: 20vh;
+  border-right: 2px solid #fff;
+  text-align: center;
+  transition: 0.2s ease-in-out;
+
+}
+
+.hooshmand-h2 {
+  font-size: 19px;
+  margin-right: 20px;
+  color: #FFF;
+  margin-top: 50px;
+  font-family: Iranyekan;
+}
+
+.hidden-p {
+  display: none;
+
+}
+
+
+.text-01 {
+  margin-top: 50px;
+}
+
+.text-01 h2 {
+  font-size: 2.2em;
+  font-weight: 800;
+  font-family: Iranyekan;
+  color: #000;
+
+}
+
+.img-container-03 {
+  margin-top: 40px;
+}
+
+.title-explanation-02 {
+  font-size: 18px;
+  font-family: Iranyekan;
+}
+
+.Daily-income {
+  margin-top: 50px;
+}
+
+.Daily-income h5 {
+  font-family: Iranyekan;
+}
+
+.Daily-income p {
+  font-family: Iranyekan;
+  margin-top: 20px;
+}
+
+.security-support {
+  margin-top: 40px;
+  direction: rtl;
+}
+
+.security-support h5 {
+  font-family: Iranyekan;
+
+}
+
+.security-support p {
+  font-family: Iranyekan;
+  margin-top: 30px;
+
+}
+
+.gas-refuel {
+  direction: rtl;
+  margin-top: 40px;
+}
+
+.gas-refuel h5 {
+  font-family: Iranyekan;
+
+}
+
+
+.gas-refuel p {
+  font-family: Iranyekan;
+  margin-top: 30px;
+}
+
+.bashgah-tapsi h5 {
+  font-family: Iranyekan;
+
+}
+
+
+.bashgah-tapsi p {
+  font-family: Iranyekan;
+  direction: rtl;
+}
+
+.bashgah-tapsi-btn {
+  margin-top: 20px;
+}
+
+.bashgah-tapsi-btn span a {
+  color: #fff !important;
+  background-color: rgb(9, 9, 175) !important;
+  border-radius: 10px;
+}
+
+
+.tapsi-blogs-new {
+  margin-top: 50px !important;
+}
+
+.kok {
+  font-size: 15px !important;
+}
+
+.taspi-in-iran {
+  background-image: url(../image/map-back.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+  height: 45vh;
+  margin-top: 40px;
+}
+
+.title-22 {
+  display: flex;
+  justify-content: end;
+  margin-right: 120px;
+}
+
+.title-22 h2 {
+  font-family: Iranyekan;
+}
+
+
+.city-name {
+  margin-right: 30px;
+}
+
+.footer {
+  background: #000;
+}
+
+.kali {
+  font-family: Iranyekan !important;
+}
+
+.red-link {
+  transition: color 0.2s;
+}
+
+.red-link li a:hover {
+  cursor: pointer;
+  color: red;
+}
+
+.fab {
+  font-size: 20px !important;
+}
